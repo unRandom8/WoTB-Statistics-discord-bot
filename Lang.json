@@ -1,0 +1,36 @@
+{
+    "lang":"fr",
+    "content":{
+        "commands_name":{
+            "bind":"bind",
+            "bound":"bound",
+            "help":"help",
+            "statistics":"statistics"
+        },
+        "commands_help":{
+            "bind":"Lier un compte discord à un compte World of Tanks Blitz.",
+            "bound":"Affiche la liste des personnes ayant liées leurs comptes.",
+            "help":"",
+            "statistics":"Afficher les statistiques d'un compte World of Tanks Blitz"
+        },
+        "commands_msg":{
+            "bind":{
+                "no_content":"Il faut mettre votre pseudonyme World of Tanks Blitz après \"!bind \" !",
+                "invalid_nickname":"Ce pseudonyme ne correspond à aucun compte World of Tanks Blitz !",
+                "success":"Vos comptes ont bien été liés."
+            },
+            "bound":{
+                "bound_account":"Discord: {}     WoTB: {}     WoTB id: {}",
+                "no_bound_account":"Il n'y a pas de comptes liés pour le moment."
+            },
+            "help":{
+
+            },
+            "statistics":{
+                "invalid_nickname":"Ce pseudonyme ne correspond à aucun compte World of Tanks Blitz !",
+                "invalid_bound_account":"Votre compte World of Tanks Blitz lié à votre compte discord n'est plus valide, merci de le mettre à jour.",
+                "account_not_bound":"Vous n'avez pas de compte World of Tanks Blitz lié à votre compte discord."
+            }
+        }
+    }
+}
