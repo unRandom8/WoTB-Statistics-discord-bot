@@ -4,9 +4,6 @@ from discord.ext import commands
 import os
 import json
 
-os.environ['DISCORD_TOKEN'] = 'NzE3ODIwMjc5NTI2Nzg1MDg0.Xth5tw.UIDrcaSeW2po2ZH8Oc5pWAtfoaY'
-os.environ['WOTB_TOKEN'] ='d3e4431dd1fc741f6f7fe81452874138'
-
 DISCORD_TOKEN = os.environ['DISCORD_TOKEN']# Discord bot token
 WOTB_TOKEN = os.environ['WOTB_TOKEN']# World of Tanks Blitz API client token
 client = commands.Bot('!')# Client initialisation with custom prefix
